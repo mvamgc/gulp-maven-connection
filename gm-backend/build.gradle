@@ -1,0 +1,22 @@
+buildscript {
+  repositories {
+    mavenLocal()
+    jcenter()
+  }
+
+  dependencies {
+    classpath 'org.akhikhl.gretty:gretty:+'
+  }
+}
+
+apply plugin: 'org.akhikhl.gretty'
+apply plugin: 'war'
+
+repositories {
+  mavenLocal()
+  jcenter()
+}
+
+dependencies {
+  compile 'io2010.gm:gm:0.0.1-SNAPSHOT'
+}
