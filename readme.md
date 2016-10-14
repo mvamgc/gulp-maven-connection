@@ -21,7 +21,7 @@ build jar
     
 install jar to the local maven repository as io2010.gm:gm:0.0.1-SNAPSHOT
 
-    gulp jar_install
+    gulp jar-install
     
 deploy jar to a remote repository: see https://www.npmjs.com/package/gulp-maven-deploy
 
@@ -42,7 +42,7 @@ for maven integration see https://www.npmjs.com/package/gulp-maven-deploy
 gm-backend
 ==========
 
-Backend depends on io2010.gm:gm:0.0.1-SNAPSHOT , run gulp jar_install from the other project first.
+Backend depends on io2010.gm:gm:0.0.1-SNAPSHOT , run gulp jar-install from the other project first.
  
 start project
 
