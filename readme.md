@@ -46,8 +46,8 @@ Backend depends on io2010.gm:gm:0.0.1-SNAPSHOT , run gulp jar-install from the o
  
 start project
 
-    ./gradlew appRun
+    gradlew appRun
 
 build war
 
-    ./gradlew build
+    gradlew build
